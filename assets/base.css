@@ -3655,9 +3655,13 @@ details-disclosure > details {
   height: 0;
 }
 
-.collection-gallery .li {
+.collection-gallery li {
   width: 171px;
   height: 171px;
+}
+
+.collection-gallery img {
+  width: 100%;
 }
 
 /* poppins */
