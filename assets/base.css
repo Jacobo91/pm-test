@@ -3888,3 +3888,11 @@ details-disclosure > details {
   font-weight: 900;
   font-style: italic;
 }
+
+/* crimson pro */
+.crimson-pro-pm {
+  font-family: "Crimson Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
