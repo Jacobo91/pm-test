@@ -126,10 +126,10 @@
                         {%- else -%}
                           <span>{{ collection.title }}</span>
                         {%- endif -%}
-                        {%- if collection.featured_image -%}
-                          <span>{{ collection.title }}</span>
-                        {%- endif -%}
                       </div>
+                      {%- if collection.featured_image -%}
+                        <span>{{ collection.title }}</span>
+                      {%- endif -%}
                     </a>
                   </li>
                 {%- endfor -%}
