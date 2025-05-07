@@ -3655,6 +3655,11 @@ details-disclosure > details {
   height: 0;
 }
 
+.collection-gallery .li {
+  width: 171px;
+  height: 171px;
+}
+
 /* poppins */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
