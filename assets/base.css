@@ -3681,7 +3681,11 @@ details-disclosure > details {
   display: inline-block;
   height: 147px;
   color: rgba(255, 255, 255, 1);
+<<<<<<< HEAD
+  text-underline-offset: 3px;
+=======
   text-underline-offset: 2px;
+>>>>>>> adfa928b56a75c7d17aaaac722500eaabc63d179
 }
 
 .collection-gallery li span {
