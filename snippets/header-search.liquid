@@ -143,15 +143,14 @@
             </div>
             <hr class="mega-menu-hr">
             <div class="links">
-              {%- for link in linklists -%}
-                {%- if link.handle == 'megamenu-footer' -%}
-                  <ul>
-                    <li>
-                      <a>{{ link.title }}</a>
-                    </li>
-                  </ul>
-                {%- endif -%}
-              {%- endfor -%}
+              {% assign megamenulinks = linklists['megamenu-footer'] %}
+              <ul>
+                {% for link in megamenulinks.links %}
+                  <li>
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
             </div>
           </div>
         </div>
