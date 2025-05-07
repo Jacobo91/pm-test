@@ -3603,5 +3603,6 @@ details-disclosure > details {
 /* nav feature for test */
 .close-btn_and-logo-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
 }
