@@ -3619,6 +3619,10 @@ details-disclosure > details {
   overflow: hidden;
   transition: height 0.4s ease;
   margin-top: 11px;
+  position: fixed !important;
+  top: 122px !important;
+  right: 0 !important;
+  left: 0 !important;
 }
 
 @media screen and (min-width: 990px) {
