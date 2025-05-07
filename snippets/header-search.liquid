@@ -57,9 +57,9 @@
           <search-form class="search-modal__form">
         {%- endif -%}
         <form action="{{ routes.search_url }}" method="get" role="search" class="search search-modal__form">
-          <div class="field">
+          <div class="field pm-test">
             <input
-              class="search__input field__input"
+              class="search__input field__input pm-test"
               id="{{ input_id }}"
               type="search"
               name="q"
@@ -82,16 +82,16 @@
             <input type="hidden" name="options[prefix]" value="last">
             <button
               type="reset"
-              class="reset__button field__button{% if search.terms == blank %} hidden{% endif %}"
+              class="reset__button field__button{% if search.terms == blank %} hidden{% endif %} pm-test"
               aria-label="{{ 'general.search.reset' | t }}"
             >
               <span class="svg-wrapper">
                 {{- 'icon-reset.svg' | inline_asset_content -}}
               </span>
             </button>
-            <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
+            <button class="search__button field__button pm-test" aria-label="{{ 'general.search.search' | t }}">
               <span class="svg-wrapper">
-                {{- 'icon-search.svg' | inline_asset_content -}}
+                {% render 'test-magnifier' %}
               </span>
             </button>
           </div>
