@@ -3627,6 +3627,14 @@ details-disclosure > details {
 
 .mega-menu-gallery__content {
   padding: 21px 23px 0px 19px;
+  position: fixed !important;
+  top: 122px !important;
+  right: 0 !important;
+  left: 0 !important;
+}
+
+.mega-menu-gallery__content {
+  padding: 21px 23px 0px 19px;
 }
 
 @media screen and (min-width: 990px) {
@@ -3681,11 +3689,7 @@ details-disclosure > details {
   display: inline-block;
   height: 147px;
   color: rgba(255, 255, 255, 1);
-<<<<<<< HEAD
   text-underline-offset: 3px;
-=======
-  text-underline-offset: 2px;
->>>>>>> adfa928b56a75c7d17aaaac722500eaabc63d179
 }
 
 .collection-gallery li span {
