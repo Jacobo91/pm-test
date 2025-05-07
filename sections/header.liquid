@@ -143,7 +143,7 @@
       endif
 
       if section.settings.logo_position == 'top-center' or section.settings.menu == blank
-        render 'header-search', input_id: 'Search-In-Modal-1'
+        render 'header-search', input_id: 'Search-In-Modal-1', announcement_text: section.settings.announcement_text
       endif
     -%}
 
@@ -647,6 +647,13 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 20
+    },
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": "announcement text",
+      "default": "Bundle and Save Up to 50% off",
+      "info": "use for display an announcement text in the mega menugallery"
     }
   ],
   "blocks": [
