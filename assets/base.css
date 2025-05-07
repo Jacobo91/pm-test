@@ -3610,6 +3610,7 @@ details-disclosure > details {
 @media screen and (min-width: 990px) {
   .search-modal__close-button.pm-test {
     margin-left: 0;
+    justify-content: flex-start;
   }
 }
 
