@@ -118,7 +118,7 @@
             <div class="collection-gallery">
               <ul>
                 {%- for collection in collections -%}
-                  <li title="{{ collection.title }}">
+                  <li>
                     <a href="{{ collection.url }}">
                       <div class="collection-gallery__img-wrapper {% if collection.featured_image == blank%} no-image {% endif %} crimson-pro">
                         {%- if collection.featured_image -%}
