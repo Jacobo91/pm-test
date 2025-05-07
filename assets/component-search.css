@@ -109,4 +109,5 @@ input::-webkit-search-decoration {
 
 .search__input.field__input.pm-test::placeholder {
   color: red !important;
+  display: block;
 }
