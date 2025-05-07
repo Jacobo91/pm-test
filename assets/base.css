@@ -3769,6 +3769,10 @@ details-disclosure > details {
   
 }
 
+.mega-menu-hr {
+  margin-block: 22px;
+}
+
 /* poppins */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
