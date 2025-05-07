@@ -115,7 +115,13 @@
             {{ announcement_text }}
           </div>
           <div class="mega-menu-gallery__content">
-            <div class="collection-gallery"></div>
+            <div class="collection-gallery">
+              <ul>
+                {%- for collection in collections.all -%}
+                  <span>{{ collection.title }}</span>
+                {%- endfor -%}
+              </ul>
+            </div>
             <div class="links"></div>
           </div>
         </div>
