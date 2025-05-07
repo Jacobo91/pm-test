@@ -106,3 +106,7 @@ input::-webkit-search-decoration {
   box-shadow: none;
   border-radius: none;
 }
+
+.search__input.pm-test::placeholder {
+  color: red !important;
+}
