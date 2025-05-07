@@ -3772,6 +3772,7 @@ details-disclosure > details {
 .mega-menu-hr {
   margin-block: 22px;
   background-color: rgba(210, 210, 210, 1);
+  max-width: 600px;
 }
 
 /* poppins */
