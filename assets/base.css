@@ -3677,7 +3677,7 @@ details-disclosure > details {
 }
 
 .collection-gallery li a {
-  display: block;
+  display: inline-block;
 }
 
 .collection-gallery li span {
