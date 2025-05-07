@@ -142,7 +142,13 @@
               </ul>
             </div>
             <hr class="mega-menu-hr">
-            <div class="links"></div>
+            <div class="links">
+              {%- for link in linklists -%}
+                {%- if link.handle == 'megamenu-footer' -%}
+                  <span>yeah</span>
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
           </div>
         </div>
       </div>
