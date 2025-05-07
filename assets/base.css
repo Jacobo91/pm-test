@@ -3656,11 +3656,6 @@ details-disclosure > details {
 }
 
 .collection-gallery ul {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 9px;
-  justify-content: center;
-  align-items: center;*/
   padding: 0;
   margin: 0;
   display: flex;
@@ -3669,12 +3664,6 @@ details-disclosure > details {
   flex-wrap: wrap;
   gap: 9px;
 }
-
-/* @media screen and (min-width: 990px) {
-  .collection-gallery ul {
-    display: flex;
-  }
-} */
 
 .collection-gallery li {
   width: 171px;
