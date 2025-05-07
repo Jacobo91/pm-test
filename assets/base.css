@@ -3659,6 +3659,7 @@ details-disclosure > details {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 9px;
 }
 
 .collection-gallery li {
