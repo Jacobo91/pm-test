@@ -3785,7 +3785,6 @@ details-disclosure > details {
   grid-template-columns: repeat(2, 1fr);
   margin: 0;
   padding: 0;
-  gap: 53px;
 }
 
 .mega-menu-ul li {
