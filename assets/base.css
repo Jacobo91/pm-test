@@ -3660,15 +3660,16 @@ details-disclosure > details {
   grid-template-columns: repeat(2, 1fr);
   gap: 9px;
   justify-content: center;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
 
-@media screen and (min-width: 990px) {
+/* @media screen and (min-width: 990px) {
   .collection-gallery ul {
-    grid-template-columns: repeat(1, 1fr);
+    display: flex;
   }
-}
+} */
 
 .collection-gallery li {
   width: 171px;
