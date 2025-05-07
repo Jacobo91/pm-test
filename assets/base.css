@@ -3627,18 +3627,15 @@ details-disclosure > details {
 
 .mega-menu-gallery__content {
   padding: 21px 23px 0px 19px;
-<<<<<<< HEAD
-=======
   position: fixed !important;
   top: 122px !important;
   right: 0 !important;
   left: 0 !important;
 }
 
-.mega-menu-gallery__content {
+/* .mega-menu-gallery__content {
   padding: 21px 23px 0px 19px;
->>>>>>> d09d880f72b0e31fc51b10520238ccfff56bb691
-}
+} */
 
 @media screen and (min-width: 990px) {
   .mega-menu-gallery {
