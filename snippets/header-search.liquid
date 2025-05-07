@@ -77,6 +77,13 @@
               <label class="field__label" for="{{ input_id }}">{{ 'general.search.search' | t }}</label>
               <input type="hidden" name="options[prefix]" value="last">
             </div>
+            <div>
+              <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
+                <span class="svg-wrapper">
+                  {{- 'icon-search.svg' | inline_asset_content -}}
+                </span>
+              </button>
+            </div>
             <button
               type="reset"
               class="reset__button field__button{% if search.terms == blank %} hidden{% endif %}"
@@ -86,11 +93,7 @@
                 {{- 'icon-reset.svg' | inline_asset_content -}}
               </span>
             </button>
-            <button class="search__button field__button" aria-label="{{ 'general.search.search' | t }}">
-              <span class="svg-wrapper">
-                {{- 'icon-search.svg' | inline_asset_content -}}
-              </span>
-            </button>
+
           </div>
 
           {%- if settings.predictive_search_enabled -%}
