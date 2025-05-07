@@ -3791,9 +3791,10 @@ details-disclosure > details {
   list-style: none;
 }
 
-.mega-menu-ul li:nth-type(even) {
+.mega-menu-ul li:nth-of-type(even) {
   margin-left: 53px;
 }
+
 
 /* poppins */
 .poppins-thin {
