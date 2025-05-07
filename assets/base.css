@@ -3695,6 +3695,7 @@ details-disclosure > details {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: rgba(5, 104, 57, 1);
 }
 
 .collection-gallery img {
