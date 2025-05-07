@@ -1783,7 +1783,7 @@ details[open] > .share-button__fallback {
   position: absolute;
   right: 0;
   top: 0;
-  width: 4.4rem;
+  width: auto;
   margin-left: 20px;
 }
 
