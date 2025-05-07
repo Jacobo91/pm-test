@@ -81,3 +81,8 @@ input::-webkit-search-decoration {
 .template-search__results {
   position: relative;
 }
+
+/* pm test */
+.field.pm-test {
+  height: 36px;
+}
