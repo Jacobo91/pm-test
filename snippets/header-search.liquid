@@ -45,11 +45,11 @@
               {{- 'icon-close.svg' | inline_asset_content -}}
             </span>
           </button>
-          <h1>
+          <span>
             <a>
               Logo
             </a>
-          </h1>
+          </span>
         </div>
         {%- if settings.predictive_search_enabled -%}
           <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
