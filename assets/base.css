@@ -2676,7 +2676,6 @@ details[open] .modal-overlay::after {
   line-height: calc(1 + 0.8 / var(--font-body-scale));
   position: relative;
   max-width: 600px;
-  gap: 30px;
 }
 
 .search-modal__content-bottom {
