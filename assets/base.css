@@ -3660,6 +3660,7 @@ details-disclosure > details {
   grid-template-columns: repeat(2, 1fr);
   gap: 9px;
   justify-content: center;
+  padding: 0;
 }
 
 .collection-gallery li {
