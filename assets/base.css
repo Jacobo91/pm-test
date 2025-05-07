@@ -3770,7 +3770,7 @@ details-disclosure > details {
 }
 
 .mega-menu-hr {
-  margin-block: 22px;
+  margin: 22px auto;
   background-color: rgba(210, 210, 210, 1);
   max-width: 1071px;
 }
