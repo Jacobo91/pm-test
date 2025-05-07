@@ -120,7 +120,7 @@
                 {%- for collection in collections -%}
                   <li>
                     <a src="{{ collection.url }}">
-                      <div class="collection-gallery__img-wrapper">
+                      <div class="collection-gallery__img-wrapper {% if collection.featured_image == blank%} no-image {% endif %}">
                         {%- if collection.featured_image -%}
                           <img src="{{ collection.featured_image | image_url: width: 800 }}" alt="{{ collection.title }}">
                         {%- else -%}
