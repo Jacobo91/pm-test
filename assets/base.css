@@ -1616,9 +1616,9 @@ details[open] > .share-button__fallback {
   right: var(--inputs-border-width);
   bottom: var(--inputs-border-width);
   left: var(--inputs-border-width);
-  border: 0.1rem solid transparent;
+  border: 0.1rem solid rgba(191, 191, 191, 1);
   border-radius: var(--inputs-radius);
-  box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
+  /* box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity)); */
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
 }
@@ -2674,6 +2674,7 @@ details[open] .modal-overlay::after {
 #Search-In-Modal:focus {
   border: none;
   outline: none;
+  box-shadow: none;
 }
 
 .search-modal__content {
