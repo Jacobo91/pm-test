@@ -1,10 +1,37 @@
 {{ 'test-header.css' | asset_url | stylesheet_tag }}
 <nav>
-    <div id="nav-header">
-
+    <div id="nav-header" class="navigation-header">
+        <div class="navigation-header__logo">
+            <img src="{{ section.settings.logo| image_url: width: 800 }}" alt="{{ section.setting.logo_alt_text }}">
+        </div>
     </div>
 
     <div id="nev-mega-menu">
 
     </div>
 </nav>
+
+{% schema %}
+    {
+        "name": "test header",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "logo",
+                "label": "nav logo"
+            },
+            {
+                "type": "text",
+                "id": "logo_alt_text",
+                "label": "logo alt text",
+                "default": "navigation bar logo image",
+                "info": "use to set an alt text for accessibility"
+            }
+        ],
+        "presets": [
+            {
+                "name": "test header"
+            }
+        ]
+    }
+{% endschema %}
