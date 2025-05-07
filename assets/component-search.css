@@ -88,6 +88,10 @@ input::-webkit-search-decoration {
   right: 0;
 }
 
+.reset__button.pm-test {
+  right: 0;
+}
+
 .field__button.pm-test {
   height: 36px;
 }
