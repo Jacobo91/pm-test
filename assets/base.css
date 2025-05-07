@@ -3694,6 +3694,7 @@ details-disclosure > details {
   height: 147px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .collection-gallery img {
