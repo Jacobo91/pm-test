@@ -1,14 +1,14 @@
 .search__input.field__input {
-  padding-right: 9.8rem;
+  padding: 0;
 }
 
 .search__button {
-  right: var(--inputs-border-width);
   top: var(--inputs-border-width);
+  left: 0;
 }
 
 .reset__button {
-  right: calc(var(--inputs-border-width) + 4.4rem);
+  right: 0;
   top: var(--inputs-border-width);
 }
 

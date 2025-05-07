@@ -1616,9 +1616,9 @@ details[open] > .share-button__fallback {
   right: var(--inputs-border-width);
   bottom: var(--inputs-border-width);
   left: var(--inputs-border-width);
-  border: 0.1rem solid transparent;
+  border: 0.1rem solid rgba(191, 191, 191, 1);
   border-radius: var(--inputs-radius);
-  box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
+  /* box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity)); */
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
 }
@@ -1703,6 +1703,8 @@ details[open] > .share-button__fallback {
   width: 100%;
   display: flex;
   transition: box-shadow var(--duration-short) ease;
+  height: 36px;
+  align-items: center;
 }
 
 .customer .field {
@@ -1775,14 +1777,14 @@ details[open] > .share-button__fallback {
   color: currentColor;
   cursor: pointer;
   display: flex;
-  height: 4.4rem;
-  justify-content: center;
+  height: 36px;
   overflow: hidden;
   padding: 0;
   position: absolute;
   right: 0;
   top: 0;
-  width: 4.4rem;
+  width: auto;
+  margin-left: 20px;
 }
 
 .field__button > .svg-wrapper {
@@ -2664,6 +2666,17 @@ details[open] .modal-overlay::after {
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   min-height: calc(100% + var(--inputs-margin-offset) + (2 * var(--inputs-border-width)));
   height: 100%;
+}
+
+.search-input-wrapper {
+  position: relative;
+  left: 58px;
+}
+
+#Search-In-Modal:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .search-modal__content {
