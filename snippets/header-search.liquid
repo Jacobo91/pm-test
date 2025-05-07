@@ -120,7 +120,7 @@
                 {%- for collection in collections -%}
                   <li>
                     <a src="{{ collection.url }}">
-                      <div>
+                      <div class="collection-gallery__img-wrapper">
                         <img src="{{ collection.featured_image | image_url: width: 800 }}" alt="{{ collection.title }}">
                       </div>
                       <span>{{ collection.title }}</span>
