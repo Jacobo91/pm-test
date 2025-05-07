@@ -89,6 +89,8 @@ input::-webkit-search-decoration {
 .search__button.pm-test {
   left: var(--inputs-border-width);
   right: 0;
+  justify-content: flex-start;
+  margin-left: 20px;
 }
 
 .reset__button.pm-test {
