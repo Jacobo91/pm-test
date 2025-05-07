@@ -2058,6 +2058,7 @@ input[type='checkbox'] {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: max-content;
 }
 
 .media-modal {
