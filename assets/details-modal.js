@@ -10,6 +10,23 @@ class DetailsModal extends HTMLElement {
 
     this.summaryToggle.setAttribute('role', 'button');
     this.megaMenuGallery = this.querySelector('.mega-menu-gallery');
+    this.predictiveSearch = this.querySelector('predictive-search');
+
+    if (this.predictiveSearch) {
+      const observer = new MutationObserver(() => {
+        if (this.predictiveSearch.hasAttribute('open')) {
+          this.megaMenuGallery?.classList.add('pm-hide');
+        } else {
+          this.megaMenuGallery?.classList.remove('pm-hide');
+        }
+      });
+  
+      observer.observe(this.predictiveSearch, { attributes: true, attributeFilter: ['open'] });
+  
+      if (this.predictiveSearch.hasAttribute('open')) {
+        this.megaMenuGallery?.classList.add('pm-hide');
+      }
+    }
   }
 
   isOpen() {
