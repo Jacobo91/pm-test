@@ -3626,6 +3626,21 @@ details-disclosure > details {
   }
 }
 
+.mega-menu-gallery__announcement-bar {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 1);
+  background: rgba(5, 104, 57, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .mega-menu-gallery.pm-hide {
   height: 0;
 }
