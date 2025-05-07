@@ -3674,10 +3674,13 @@ details-disclosure > details {
   line-height: 100%;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
-  border: 1px solid rgba(191, 191, 191, 1);
 }
 
-.collection-gallery li a {
+.collection-gallery li span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-block: 4px;
   background: rgba(5, 104, 57, 1);
 }
 
