@@ -3639,6 +3639,7 @@ details-disclosure > details {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 10px 63px;
 }
 
 .mega-menu-gallery.pm-hide {
