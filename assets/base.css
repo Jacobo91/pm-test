@@ -3692,6 +3692,8 @@ details-disclosure > details {
 .collection-gallery__img-wrapper {
   width: 171px;
   height: 147px;
+  display: flex;
+  justify-content: center;
 }
 
 .collection-gallery img {
