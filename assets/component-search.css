@@ -117,6 +117,7 @@ input::-webkit-search-decoration {
 .field__input.pm-test:focus, .select__select:focus, .customer .field input:focus, .customer select:focus, .localization-form__select:focus.localization-form__select:after {
   box-shadow: none;
   border-radius: none;
+  border: 1px solid black;
 }
 
 .search__input.field__input.pm-test::placeholder {
