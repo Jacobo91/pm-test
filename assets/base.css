@@ -3666,6 +3666,7 @@ details-disclosure > details {
 }
 
 .collection-gallery li {
+  cursor: pointer;
   width: 171px;
   height: 171px;
   list-style: none;
