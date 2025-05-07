@@ -144,7 +144,7 @@
             <hr class="mega-menu-hr">
             <div class="links">
               {% assign megamenulinks = linklists['megamenu-footer'] %}
-              <ul>
+              <ul class="mega-menu-ul">
                 {% for link in megamenulinks.links %}
                   <li>
                     <a href="{{ link.url }}">{{ link.title }}</a>
