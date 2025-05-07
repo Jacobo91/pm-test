@@ -3618,6 +3618,10 @@ details-disclosure > details {
   background: white;
 }
 
+.mega-menu-gallery.pm-hide {
+  height: 0;
+}
+
 /* poppins */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
