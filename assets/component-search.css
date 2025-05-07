@@ -91,3 +91,9 @@ input::-webkit-search-decoration {
 .field__button.pm-test {
   height: 36px;
 }
+
+.field.field.pm-test:after, .select:after, .customer .field:after, .customer select:after, .localization-form__select:after {
+  border-radius: none;
+  box-shadow: none;
+  border: 1px solid rgba(191, 191, 191, 1);
+}
