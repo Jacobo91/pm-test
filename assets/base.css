@@ -3658,6 +3658,7 @@ details-disclosure > details {
 .collection-gallery li {
   width: 171px;
   height: 171px;
+  list-style: none;
 }
 
 .collection-gallery img {
