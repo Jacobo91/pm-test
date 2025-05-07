@@ -2671,7 +2671,7 @@ details[open] .modal-overlay::after {
   left: 30px;
 }
 
-.search__input:focus {
+#Search-In-Modal:focus {
   border: none;
   outline: none;
 }
