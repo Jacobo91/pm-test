@@ -3689,9 +3689,13 @@ details-disclosure > details {
   background: rgba(5, 104, 57, 1);
 }
 
+.collection-gallery__img-wrapper {
+  height: 147px;
+}
+
 .collection-gallery img {
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
 }
 
