@@ -3795,6 +3795,7 @@ details-disclosure > details {
   line-height: 100%;
   text-decoration: underline;
   text-decoration-style: solid;
+  color: rgba(0, 0, 0, 1);
 }
 
 .mega-menu-ul li:nth-of-type(even) {
