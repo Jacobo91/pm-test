@@ -3678,6 +3678,7 @@ details-disclosure > details {
 
 .collection-gallery li a {
   display: inline-block;
+  height: 147px;
 }
 
 .collection-gallery li span {
