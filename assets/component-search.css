@@ -84,7 +84,6 @@ input::-webkit-search-decoration {
   font-family: 'Poppins';
   font-weight: 300;
   font-size: 14px;
-  letter-spacing: 0%;
 }
 
 .search__button.pm-test {
