@@ -3668,6 +3668,11 @@ details-disclosure > details {
   width: 171px;
   height: 171px;
   list-style: none;
+  font-family: 'Crimson Pro';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-transform: uppercase;
 }
 
 .collection-gallery img {
