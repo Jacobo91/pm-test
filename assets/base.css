@@ -3782,6 +3782,7 @@ details-disclosure > details {
 
 .mega-menu-ul {
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* poppins */
