@@ -124,7 +124,13 @@
                         {%- if collection.featured_image -%}
                           <img src="{{ collection.featured_image | image_url: width: 800 }}" alt="{{ collection.title }}">
                         {%- else -%}
-                          <span>{{ collection.title }}</span>
+                          {%- assign title = '' -%}
+                          {% if collection.title == 'home page' %}
+                            {%- assign title = 'shop all' -%}
+                          {% else %}
+                            {%- assign title = collection.title -%}
+                          {% endif %}
+                          <span>{{ title }}</span>
                         {%- endif -%}
                       </div>
                       {%- if collection.featured_image -%}
