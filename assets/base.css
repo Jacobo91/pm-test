@@ -3656,10 +3656,10 @@ details-disclosure > details {
 }
 
 .collection-gallery ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 9px;
+  justify-content: center;
 }
 
 .collection-gallery li {
