@@ -3785,6 +3785,10 @@ details-disclosure > details {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.mega-menu-ul li {
+  list-style: none;
+}
+
 /* poppins */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
