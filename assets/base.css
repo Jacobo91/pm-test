@@ -3690,11 +3690,12 @@ details-disclosure > details {
 }
 
 .collection-gallery__img-wrapper {
+  width: 171px;
   height: 147px;
 }
 
 .collection-gallery img {
-  width: 171px;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
