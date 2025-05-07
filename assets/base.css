@@ -3791,6 +3791,10 @@ details-disclosure > details {
   list-style: none;
 }
 
+.mega-menu-ul li:nth-type(even) {
+  margin-left: 53px;
+}
+
 /* poppins */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
