@@ -108,6 +108,6 @@ input::-webkit-search-decoration {
 }
 
 .search__input.field__input.pm-test::placeholder {
-  color: red !important;
+  color: rgba(191, 191, 191, 1) !important;
   display: block;
 }
