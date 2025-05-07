@@ -121,7 +121,11 @@
                   <li>
                     <a src="{{ collection.url }}">
                       <div class="collection-gallery__img-wrapper">
-                        <img src="{{ collection.featured_image | image_url: width: 800 }}" alt="{{ collection.title }}">
+                        {%- if collection.featured_image -%}
+                          <img src="{{ collection.featured_image | image_url: width: 800 }}" alt="{{ collection.title }}">
+                        {%- else -%}
+                          <span>{{ collection.title }}</span>
+                        {%- endif -%}
                       </div>
                       <span>{{ collection.title }}</span>
                     </a>
