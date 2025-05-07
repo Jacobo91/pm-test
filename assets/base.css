@@ -3660,12 +3660,13 @@ details-disclosure > details {
   grid-template-columns: repeat(2, 1fr);
   gap: 9px;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   padding: 0;
-  margin: 0; */
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 /* @media screen and (min-width: 990px) {
