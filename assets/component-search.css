@@ -87,3 +87,7 @@ input::-webkit-search-decoration {
   left: var(--inputs-border-width);
   right: 0;
 }
+
+.field__button.pm-test {
+  height: 36px;
+}
