@@ -79,7 +79,7 @@ input::-webkit-search-decoration {
 }
 
 .search__input.field__input.pm-test {
-  padding-left: 58px;
+  padding: 0 0 0 58px;
   height: 36px;
 }
 
