@@ -7,13 +7,13 @@
         {%- if section.settings.menu != blank -%}            
             <nav class="test-header__inline-menu">
                 <ul class="test-header__list-menu" role="list">
-                    {%- for link in section.settings.menu -%}
+                    {% for link in section.settings.menu %}
                         <li>
                             <a href="{{ link.url }}">
                                 {{ link.title }}
                             </a>
                         </li>
-                    {%- endfor -%}
+                    {% endfor %}
                 </ul>
             </nav>
         {%- endif -%}
