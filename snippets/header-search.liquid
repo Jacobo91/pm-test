@@ -120,7 +120,7 @@
                 {%- for collection in collections -%}
                   <li>
                     <a href="{{ collection.url }}">
-                      <div class="collection-gallery__img-wrapper {% if collection.featured_image == blank%} no-image {% endif %}">
+                      <div class="collection-gallery__img-wrapper {% if collection.featured_image == blank%} no-image {% endif %} crimson-pro">
                         {%- if collection.featured_image -%}
                           <img src="{{ collection.featured_image | image_url: width: 800 }}" alt="{{ collection.title }}">
                         {%- else -%}
