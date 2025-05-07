@@ -3612,6 +3612,12 @@ details-disclosure > details {
   justify-content: flex-start;
 }
 
+.mega-menu-gallery {
+  width: 100%;
+  height: 100dvh;
+  background: white;
+}
+
 /* poppins */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
