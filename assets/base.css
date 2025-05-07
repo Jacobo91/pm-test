@@ -2059,6 +2059,7 @@ input[type='checkbox'] {
   justify-content: center;
   align-items: center;
   height: max-content !important;
+  padding-bottom: 11px;
 }
 
 .media-modal {
