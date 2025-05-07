@@ -9,6 +9,7 @@ class DetailsModal extends HTMLElement {
     this.querySelector('button[type="button"]').addEventListener('click', this.close.bind(this));
 
     this.summaryToggle.setAttribute('role', 'button');
+    this.megaMenuGallery = this.querySelector('.mega-menu-gallery');
   }
 
   isOpen() {
