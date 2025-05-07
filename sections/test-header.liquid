@@ -1,15 +1,28 @@
 {{ 'test-header.css' | asset_url | stylesheet_tag }}
-<nav>
-    <div id="nav-header" class="navigation-header">
-        <div class="navigation-header__logo">
+<header id="test-header-wrapper">
+    <div class="test-header">
+        <div class="test-header__logo">
             <img src="{{ section.settings.logo| image_url: width: 800 }}" alt="{{ section.setting.logo_alt_text }}">
         </div>
+        {%- if section.settings.menu != blank -%}            
+            <nav class="test-header__inline-menu">
+                <ul class="test-header__list-menu" role="list">
+                    {%- for link in section.settings.menu -%}
+                        <li>
+                            <a href="{{ link.url }}">
+                                {{ link.title }}
+                            </a>
+                        </li>
+                    {%- endfor -%}
+                </ul>
+            </nav>
+        {%- endif -%}
     </div>
 
-    <div id="nev-mega-menu">
+    <div class="test-mega-menu">
 
     </div>
-</nav>
+</header>
 
 {% schema %}
     {
@@ -26,6 +39,12 @@
                 "label": "logo alt text",
                 "default": "navigation bar logo image",
                 "info": "use to set an alt text for accessibility"
+            },
+            {
+                "type": "link_list",
+                "id": "menu",
+                "default": "main-menu",
+                "label": "t:sections.header.settings.menu.label"
             }
         ],
         "presets": [
