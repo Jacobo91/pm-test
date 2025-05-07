@@ -3,8 +3,9 @@
 }
 
 .search__button {
-  right: var(--inputs-border-width);
+  /* right: var(--inputs-border-width); */
   top: var(--inputs-border-width);
+  left: 0;
 }
 
 .reset__button {
