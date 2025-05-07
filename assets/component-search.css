@@ -76,6 +76,7 @@ input::-webkit-search-decoration {
 /* pm test */
 .field.pm-test {
   height: 36px;
+  align-items: center;
 }
 
 .search__input.field__input.pm-test {
