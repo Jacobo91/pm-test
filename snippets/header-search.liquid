@@ -114,6 +114,29 @@
           <div class="mega-menu-gallery__announcement-bar">
             {{ announcement_text }}
           </div>
+          <div class="mega-menu-gallery__content">
+            <div class="collection-gallery">
+              <ul>
+                {%- for collection in collections -%}
+                  <li>
+                    <a href="{{ collection.url }}">
+                      <div class="collection-gallery__img-wrapper {% if collection.featured_image == blank%} no-image {% endif %}">
+                        {%- if collection.featured_image -%}
+                          <img src="{{ collection.featured_image | image_url: width: 800 }}" alt="{{ collection.title }}">
+                        {%- else -%}
+                          <span>{{ collection.title }}</span>
+                        {%- endif -%}
+                      </div>
+                      {%- if collection.featured_image -%}
+                        <span>{{ collection.title }}</span>
+                      {%- endif -%}
+                    </a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            </div>
+            <div class="links"></div>
+          </div>
         </div>
       </div>
     </div>
