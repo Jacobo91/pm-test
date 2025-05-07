@@ -3681,6 +3681,7 @@ details-disclosure > details {
 .collection-gallery li a {
   display: inline-block;
   height: 147px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .collection-gallery li span {
