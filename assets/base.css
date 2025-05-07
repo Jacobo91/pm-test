@@ -3655,6 +3655,12 @@ details-disclosure > details {
   height: 0;
 }
 
+.collection-gallery ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .collection-gallery li {
   width: 171px;
   height: 171px;
