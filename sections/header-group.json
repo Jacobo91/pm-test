@@ -58,7 +58,8 @@
       "type": "test-header",
       "name": "test header",
       "settings": {
-        "logo_alt_text": "navigation bar logo image"
+        "logo_alt_text": "navigation bar logo image",
+        "menu": "main-menu"
       }
     }
   },
