@@ -3676,6 +3676,10 @@ details-disclosure > details {
   color: rgba(255, 255, 255, 1);
 }
 
+.collection-gallery li a {
+  display: block;
+}
+
 .collection-gallery li span {
   display: inline-block;
   width: 100%;
