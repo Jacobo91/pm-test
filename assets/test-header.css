@@ -1,9 +1,17 @@
+<<<<<<< HEAD
+#test-header-wrapper {
+=======
 #test-header-nav {
+>>>>>>> ee30f5905228af2b6d5aad9b97f307efbf1875e7
     height: 64px;
 }
 
 @media screen and (min-width: 990px) {
+<<<<<<< HEAD
+    #test-header-wrapper {
+=======
     #test-header-nav {
+>>>>>>> ee30f5905228af2b6d5aad9b97f307efbf1875e7
         height: 84px;
     }
 }
