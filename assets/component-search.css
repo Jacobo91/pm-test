@@ -110,4 +110,9 @@ input::-webkit-search-decoration {
 .search__input.field__input.pm-test::placeholder {
   color: rgba(191, 191, 191, 1) !important;
   opacity: 1;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
