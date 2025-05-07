@@ -3625,6 +3625,10 @@ details-disclosure > details {
   left: 0 !important;
 }
 
+.mega-menu-gallery__content {
+  padding: 0 11px;
+}
+
 @media screen and (min-width: 990px) {
   .mega-menu-gallery {
     height: auto;
