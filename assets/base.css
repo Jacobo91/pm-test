@@ -2666,6 +2666,11 @@ details[open] .modal-overlay::after {
   height: 100%;
 }
 
+.search-input-wrapper {
+  position: relative;
+  left: 30px;
+}
+
 .search-modal__content {
   display: grid;
   grid-template-rows: auto;
