@@ -118,7 +118,14 @@
             <div class="collection-gallery">
               <ul>
                 {%- for collection in collections -%}
-                  <span>{{ collection.title }}</span>
+                  <li>
+                    <a src="{{ collection.url }}">
+                      <div>
+                        <img src="{{ collection.featured_image | image_url: width: 800 }}" alt="{{ collection.title }}">
+                      </div>
+                      <h2>{{ collection.title }}</h2>
+                    </a>
+                  </li>
                 {%- endfor -%}
               </ul>
             </div>
