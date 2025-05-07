@@ -4,13 +4,15 @@
         <div class="test-header__logo">
             <img src="{{ section.settings.logo| image_url: width: 800 }}" alt="{{ section.setting.logo_alt_text }}">
         </div>
-        {% if section.settings.menu != blank %}            
+        {%- if section.settings.menu != blank -%}            
             <nav class="test-header__inline-menu">
                 <ul class="test-header__list-menu" role="list">
-                    
+                    {%- for item in collection -%}
+                        
+                    {%- endfor -%}
                 </ul>
             </nav>
-        {% endif %}
+        {%- endif -%}
     </div>
 
     <div class="test-mega-menu">
