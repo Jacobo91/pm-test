@@ -7,7 +7,7 @@
         {%- if section.settings.menu != blank -%}            
             <nav class="test-header__inline-menu">
                 <ul class="test-header__list-menu" role="list">
-                    {% for link in section.settings.menu %}
+                    {% for link in linklists[section.settings.menu].links %}
                         <li>
                             <a href="{{ link.url }}">
                                 {{ link.title }}
