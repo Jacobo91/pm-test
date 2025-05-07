@@ -1,5 +1,6 @@
-<<<<<<< HEAD
 #test-header-wrapper {
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
 #test-header-wrapper {
@@ -7,12 +8,14 @@
 #test-header-nav {
 >>>>>>> ee30f5905228af2b6d5aad9b97f307efbf1875e7
 >>>>>>> c2bbc90a4e7fa93951affead1fe8f97e4056543a
+>>>>>>> b5614a231ccd4d7b7a9504c420f738574c94b429
     height: 64px;
 }
 
 @media screen and (min-width: 990px) {
-<<<<<<< HEAD
     #test-header-wrapper {
+<<<<<<< HEAD
+=======
 =======
 <<<<<<< HEAD
     #test-header-wrapper {
@@ -20,6 +23,7 @@
     #test-header-nav {
 >>>>>>> ee30f5905228af2b6d5aad9b97f307efbf1875e7
 >>>>>>> c2bbc90a4e7fa93951affead1fe8f97e4056543a
+>>>>>>> b5614a231ccd4d7b7a9504c420f738574c94b429
         height: 84px;
     }
 }
