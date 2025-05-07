@@ -53,10 +53,18 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "test_header_HhQGtg": {
+      "type": "test-header",
+      "name": "test header",
+      "settings": {
+        "logo_alt_text": "navigation bar logo image"
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "test_header_HhQGtg"
   ]
 }
