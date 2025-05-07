@@ -3693,6 +3693,7 @@ details-disclosure > details {
   width: 171px;
   height: 147px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background: rgba(5, 104, 57, 1);
