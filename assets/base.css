@@ -2704,6 +2704,10 @@ details[open] .modal-overlay::after {
 }
 
 @media screen and (min-width: 990px) {
+  .search-modal__close-button {
+    position: relative;
+  }
+
   .search-modal__form {
     max-width: 74.2rem;
   }
