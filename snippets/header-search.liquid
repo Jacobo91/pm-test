@@ -145,7 +145,11 @@
             <div class="links">
               {%- for link in linklists -%}
                 {%- if link.handle == 'megamenu-footer' -%}
-                  <span>yeah</span>
+                  <ul>
+                    <li>
+                      <a>{{ link.title }}</a>
+                    </li>
+                  </ul>
                 {%- endif -%}
               {%- endfor -%}
             </div>
