@@ -1,9 +1,0 @@
-#test-header-wrapper {
-    height: 64px;
-}
-
-@media screen and (min-width: 990px) {
-    #test-header-wrapper {
-        height: 84px;
-    }
-}
