@@ -3787,6 +3787,7 @@ details-disclosure > details {
   padding: 0;
   max-width: 1071px;
   margin: 0 auto;
+  row-gap: 20px;
 }
 
 .mega-menu-ul li {
