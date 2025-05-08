@@ -3806,6 +3806,31 @@ details-disclosure > details {
 .mega-menu-ul li a {
   color: rgba(0, 0, 0, 1);
 }
+
+.t-shirts {
+  order: 1;
+}
+
+.sweatpants-1 {
+  order: 2;
+}
+
+.sweatpants {
+  order: 3;
+}
+
+.bundle-save {
+  order: 4;
+}
+
+.shorts {
+  order: 5;
+}
+
+.frontpage {
+  order: 6;
+}
+
 /* poppins */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
