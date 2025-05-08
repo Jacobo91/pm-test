@@ -3803,6 +3803,7 @@ details-disclosure > details {
   text-decoration: underline;
   text-decoration-style: solid;
   cursor: pointer;
+  width: 48%;
 }
 
 .mega-menu-ul li a {
