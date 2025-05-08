@@ -3793,6 +3793,7 @@ details-disclosure > details {
   align-items: center;
   flex-wrap: wrap;
   row-gap: 20px;
+  max-width: 1071px;
 }
 
 .mega-menu-ul li {
