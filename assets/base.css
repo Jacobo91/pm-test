@@ -3626,7 +3626,7 @@ details-disclosure > details {
 }
 
 .mega-menu-gallery__content {
-  padding: 21px 23px 0px 19px;
+  padding: 21px 23px 22px 19px;
 }
 
 @media screen and (min-width: 990px) {
