@@ -3786,7 +3786,7 @@ details-disclosure > details {
   max-width: 1071px;
   margin: 0 auto;
   row-gap: 20px; */
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   justify-content: space-between;
