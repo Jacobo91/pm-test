@@ -3794,6 +3794,7 @@ details-disclosure > details {
   font-size: 14px;
   text-decoration: underline;
   text-decoration-style: solid;
+  cursor: pointer;
 }
 
 .mega-menu-ul li a {
