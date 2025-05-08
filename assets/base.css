@@ -3809,9 +3809,9 @@ details-disclosure > details {
   color: rgba(0, 0, 0, 1);
 }
 
-/* .mega-menu-ul li:nth-of-type(even) {
+.mega-menu-ul li:nth-of-type(even) {
   margin-left: 53px;
-} */
+}
 
 /* @media screen and (min-width: 990px) {
   .mega-menu-ul li:nth-of-type(even) {
