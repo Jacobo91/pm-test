@@ -3811,7 +3811,7 @@ details-disclosure > details {
 @media screen and (min-width: 990px) {
   .mega-menu-ul li:nth-of-type(even) {
     margin-left: 0;
-    justify-self: end;
+    justify-self: start;
   }
 }
 
