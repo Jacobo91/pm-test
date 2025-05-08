@@ -142,7 +142,16 @@
               </ul>
             </div>
             <hr class="mega-menu-hr">
-            <div class="links"></div>
+            <div class="links">
+              {% assign megamenulinks = linklists['megamenu-footer'] %}
+              <ul class="mega-menu-ul">
+                {% for link in megamenulinks.links %}
+                  <li>
+                    <a href="{{ link.url }}">{{ link.title }}</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            </div>
           </div>
         </div>
       </div>
