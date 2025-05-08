@@ -3781,13 +3781,14 @@ details-disclosure > details {
 }
 
 .mega-menu-ul {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 0;
-  padding: 0;
-  max-width: 1071px;
   margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
   row-gap: 20px;
+  max-width: 1071px;
 }
 
 .mega-menu-ul li {
@@ -3798,23 +3799,13 @@ details-disclosure > details {
   text-decoration: underline;
   text-decoration-style: solid;
   cursor: pointer;
+  width: 34%;
+  text-wrap: nowrap;
 }
 
 .mega-menu-ul li a {
   color: rgba(0, 0, 0, 1);
 }
-
-.mega-menu-ul li:nth-of-type(even) {
-  margin-left: 53px;
-}
-
-@media screen and (min-width: 990px) {
-  .mega-menu-ul li:nth-of-type(even) {
-    margin-left: 0;
-    justify-self: start;
-  }
-}
-
 /* poppins */
 .poppins-thin {
   font-family: "Poppins", sans-serif;
