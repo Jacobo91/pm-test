@@ -117,7 +117,7 @@ input::-webkit-search-decoration {
 .field__input.pm-test:focus {
   box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
   outline: 0;
-  border-radius: var(--inputs-radius);
+  border: 1px solid black;
 }
 
 .search__input.field__input.pm-test::placeholder {
