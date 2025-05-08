@@ -115,9 +115,9 @@ input::-webkit-search-decoration {
 }
 
 .field__input.pm-test:focus, .select__select:focus, .customer .field input:focus, .customer select:focus, .localization-form__select:focus.localization-form__select:after {
-  box-shadow: none;
-  border-radius: none;
-  outline: 1px solid black;
+  box-shadow: 0 0 0 calc(0.1rem + var(--inputs-border-width)) rgba(var(--color-foreground));
+  outline: 0;
+  border-radius: var(--inputs-radius);
 }
 
 .search__input.field__input.pm-test::placeholder {
