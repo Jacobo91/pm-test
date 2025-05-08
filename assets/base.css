@@ -3789,6 +3789,8 @@ details-disclosure > details {
   margin: 0 auto;
   row-gap: 20px; */
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .mega-menu-ul li {
